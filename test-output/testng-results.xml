@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-24T10:08:36 COT" name="Default suite" finished-at="2024-12-24T10:08:41 COT" duration-ms="4877">
+    <groups>
+    </groups>
+    <test started-at="2024-12-24T10:08:36 COT" name="Default test" finished-at="2024-12-24T10:08:41 COT" duration-ms="4877">
+      <class name="WeatherApiTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:WeatherApiTest@6c64cb25]" started-at="2024-12-24T10:08:36 COT" name="setup" finished-at="2024-12-24T10:08:37 COT" duration-ms="734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testErrorHandlingForInvalidCityName()[pri:0, instance:WeatherApiTest@6c64cb25]" started-at="2024-12-24T10:08:37 COT" name="testErrorHandlingForInvalidCityName" finished-at="2024-12-24T10:08:40 COT" duration-ms="3044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrorHandlingForInvalidCityName -->
+        <test-method signature="testErrorHandlingForInvalidCoordinates()[pri:0, instance:WeatherApiTest@6c64cb25]" started-at="2024-12-24T10:08:40 COT" name="testErrorHandlingForInvalidCoordinates" finished-at="2024-12-24T10:08:40 COT" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrorHandlingForInvalidCoordinates -->
+        <test-method signature="testGetWeatherByCityName()[pri:0, instance:WeatherApiTest@6c64cb25]" started-at="2024-12-24T10:08:40 COT" name="testGetWeatherByCityName" finished-at="2024-12-24T10:08:41 COT" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetWeatherByCityName -->
+        <test-method signature="testGetWeatherByCoordinates()[pri:0, instance:WeatherApiTest@6c64cb25]" started-at="2024-12-24T10:08:41 COT" name="testGetWeatherByCoordinates" finished-at="2024-12-24T10:08:41 COT" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetWeatherByCoordinates -->
+      </class> <!-- WeatherApiTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
