@@ -1,6 +1,3 @@
-Sure! Below is a sample test plan document for testing the Current Weather Data API endpoint.
-
----
 
 # Test Plan for Current Weather Data API Endpoint
 
